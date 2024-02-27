@@ -1,0 +1,150 @@
+/* Universele stijlen */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Stijlen voor de body */
+body {
+    background-color: #B2B6FB;
+    font-size: 18px;
+    color: #24251d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stijlen voor koppen */
+h1 {
+    color: #FBFAFD;
+}
+
+h2 {
+    color: #2c2c40;
+}
+
+/* Stijlen voor de header */
+header {
+    background-color: #585880;
+    height: 150px;
+}
+
+/* Stijlen voor de hoofdsectie */
+.hoofdsectie {
+    background-color: #fcf8f0;
+    min-height: 700px;
+}
+
+/* Stijlen voor de header, footer en inhoudssecties */
+header,
+footer,
+.hoofdsectie {
+    padding: 10px;
+    width: 98%;
+    margin: 0 1%;
+}
+
+/* Stijlen voor het menu */
+.menu li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #5d524d;
+    background-color: #FEEAF8;
+    box-sizing: content-box;
+}
+
+.menu li a {
+    color: #3a3939;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: #7ac9f7;
+}
+
+.menu li a:hover {
+    color: #26173a;
+}
+
+/* Stijlen voor afbeeldingen */
+img {
+    width: 45%;
+    height: auto;
+}
+
+/* Stijlen voor labels */
+label {
+    margin-top: 10px;
+    color: #302e2e;
+}
+
+/* Stijlen voor invoervelden en tekstvakken */
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 6px #c89af8;
+}
+
+textarea {
+    height: 200px;
+}
+
+/* Stijlen voor knoppen */
+button {
+    background-color: #585880;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+
+button:active {
+    border: 1px solid #161620;
+    background-color: #ab99bc;
+    color: #191a14;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px #7645aa;
+}
+
+/* Stijlen voor tabellen */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #433750;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Stijlen voor de footer */
+footer {
+    background-color: #161620;
+    color: #ffffff;
+    font-size: 16px;
+    height: 70px;
+    text-align: center;
+}
